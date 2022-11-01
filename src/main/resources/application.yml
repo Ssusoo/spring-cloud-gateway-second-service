@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+
+spring:
+  application:
+    name: second-service
+
+# eureka-client setting
+# eureka 라이브러리가 포함된 채 spring이 실행될 때
+eureka:
+  client:
+    # 자신에게 등록하는 의미없는 작업이기 때문에 false
+    register-with-eureka: false
+    # 자신에게 등록하는 의미없는 작업이기 때문에 false
+    fetch-registry: false
