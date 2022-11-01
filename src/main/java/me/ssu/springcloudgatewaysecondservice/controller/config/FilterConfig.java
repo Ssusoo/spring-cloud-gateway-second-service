@@ -1,6 +1,5 @@
 package me.ssu.springcloudgatewaysecondservice.controller.config;
 
-import org.apache.http.client.methods.RequestBuilder;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
