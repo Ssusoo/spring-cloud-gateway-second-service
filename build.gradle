@@ -21,8 +21,10 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    // routeLocator Add
-    implementation group: 'org.springframework.cloud', name: 'spring-cloud-gateway-core', version: '2.2.10.RELEASE'
+    // RouteLocator-1
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-gateway', version: '2.2.1.RELEASE'
+    // RouteLocator-2
+    implementation group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-nacos-discovery', version: '2.1.0.RELEASE'
 }
 
 dependencyManagement {
